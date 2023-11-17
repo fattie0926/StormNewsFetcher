@@ -24,15 +24,16 @@ pip install beautifulsoup4
    - 前往 [My Applets](https://ifttt.com/my_applets) 並創建一個新的 applet。
    - `IF` 選擇 Webhooks 的 "Receive a web request" 作為觸發條件，並記下您設定的 `Event Name`。
    - `THEN` 選擇 " Send message" 作為欲執行的動作。
-   - 在 LINE 設定中，設定以下信息：
-     ```
+   - 在 LINE 的設定中，貼上以下內容：
      Message:
+     ```
      <br>{{Value1}}<br>
      {{Value2}}<br >
      <br>Value1<br>
      Value2<br >
-
+     ```
      Photo URL:
+     ```
      {{Value3}}
      ```
    - 保存並啟用 applet。
