@@ -24,18 +24,21 @@ pip install beautifulsoup4
    - 前往 [My Applets](https://ifttt.com/my_applets) 並創建一個新的 applet。
    - `IF` 選擇 Webhooks 的 "Receive a web request" 作為觸發條件，並記下您設定的 `Event Name`。
    - `THEN` 選擇 " Send message" 作為欲執行的動作。
-   - 在 LINE 的設定中，貼上以下內容：
-     Message:
+   - 在 LINE 的設定中，根據以下指示填寫 `Message` 和 `Photo URL` 兩個欄位：
+
+     **Message 欄位:**
      ```
      <br>{{Value1}}<br>
-     {{Value2}}<br >
-     <br>Value1<br>
-     Value2<br >
+     {{Value2}}<br>
      ```
-     Photo URL:
+     在此欄位中，`{{Value1}}` 和 `{{Value2}}` 將被替換為新聞標題和內容。
+
+     **Photo URL 欄位:**
      ```
      {{Value3}}
      ```
+     在此欄位中，`{{Value3}}` 將被替換為新聞中的圖片網址。
+   
    - 保存並啟用 applet。
 
 2. **運行提供的 Python 函數來抓取風傳媒的最新新聞**：
