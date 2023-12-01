@@ -1,5 +1,7 @@
 # StormNewsFetcher
 
+<a href="https://colab.research.google.com/github/fattie0926/StormNewsFetcher/blob/main/StormNewsFetcher.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ## 簡介
 StormNewsFetcher 是一款運用 Python 和 BeautifulSoup 開發的新聞抓取工具，專門用於自動從[風傳媒](https://www.storm.mg/)網站抓取最新新聞。此工具通過解析網站的 HTML 結構來獲取新聞內容，並支援將內容透過 IFTTT 發送到 LINE 或其他平台。
 
